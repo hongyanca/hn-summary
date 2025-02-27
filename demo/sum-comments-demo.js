@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { extractComments } from './src/commentExtractor.js';
-import { askLLM, FALLBACK_MODELS } from './src/openrouterClient.js';
+import { extractComments } from '../src/commentExtractor.js';
+import { askLLM, FALLBACK_MODELS } from '../src/openrouterClient.js';
 import fs from 'node:fs/promises';
 import readline from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';

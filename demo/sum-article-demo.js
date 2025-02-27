@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { askLLM } from './src/openrouterClient.js';
+import { askLLM } from '../src/openrouterClient.js';
 import fs from 'node:fs/promises';
 import readline from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { extractComments, isPaywalled } from './index.js';
+import { extractComments, isPaywalled } from '../src/commentExtractor.js';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 

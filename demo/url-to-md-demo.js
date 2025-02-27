@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { urlToCleanMarkdown } from './src/urlToCleanMarkdown.js';
+import { urlToCleanMarkdown } from '../src/urlToCleanMarkdown.js';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
